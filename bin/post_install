@@ -8,7 +8,7 @@ case "$1" in
     version="$2"
 esac
 
-source $OPENSHIFT_MOCK_PLUGIN_DIR/mock-plugin.conf
+source $OPENSHIFT_JAVAGATEWAY_DIR/mock-plugin.conf
 
 mkdir -p $MOCK_STATE
 touch $MOCK_STATE/post_install_called
