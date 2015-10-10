@@ -1,5 +1,5 @@
 ---
-Name: py4j_JavaGateway
+Name: py4j_javagateway
 Cartridge-Short-Name: JAVAGATEWAY
 Display-Name: py4j Java Gateway Cartridge 0.1
 Description: A service for using java with a python cartridge 
@@ -26,6 +26,6 @@ Endpoints:
 - Private-IP-Name: JAVAGATEWAY_IP
   Private-Port-Name: JAVAGATEWAY_PORT
   Private-Port: 25333
-  Public-Port-Name PROXY_PORT
 Metrics:
 - uptime
+Source-Url: https://github.com/jchinte/py4j-plugin.git
